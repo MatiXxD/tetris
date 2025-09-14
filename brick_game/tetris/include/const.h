@@ -1,0 +1,38 @@
+#ifndef _TETRIS_CONST_H_
+#define _TETRIS_CONST_H_
+
+#define DATA_FILE_PATH "./data.txt"
+
+#define X_SIZE 10
+#define Y_SIZE 21
+
+#define DEFAULT_TICK_TIME 20
+
+#define GAME_NOT_FINISHED 0
+#define GAME_IS_FINISHED 1
+
+#define EMPTY_CELL 0
+#define EMPTY_CELL_OFFSET 1
+
+#define MOVE_DOWN_DELTA 1
+#define MOVE_LEFT_DELTA -1
+#define MOVE_RIGHT_DELTA 1
+
+#define CHECK_BORDER_OK 0
+#define CHECK_BORDER_FAIL 1
+
+#define CHECK_COLLISION_OK 0
+#define CHECK_COLLISION_FAIL 1
+
+#define SPAWN_FIGURE_OK 0
+#define SPAWN_FIGURE_FAIL 1
+
+#define CLEAR_ONE_LINE_SCORE 100
+#define CLEAR_TWO_LINES_SCORE 300
+#define CLEAR_THREE_LINES_SCORE 700
+#define CLEAR_FOUR_LINES_SCORE 1500
+
+#define SCORE_TO_LVLUP 600
+#define LVL_TICK 2
+
+#endif
